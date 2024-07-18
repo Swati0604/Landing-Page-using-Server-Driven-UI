@@ -1,0 +1,19 @@
+{
+    "name": "server",
+    "version": "1.0.0",
+    "description": "SDUI - BE",
+    "main": "index.js",
+    "scripts": {
+      "dev": "nodemon index.js --watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.18.2"
+    },
+    "devDependencies": {
+        "nodemon": "^1.18.8"
+    }
+  }

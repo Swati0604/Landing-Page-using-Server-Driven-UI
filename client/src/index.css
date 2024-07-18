@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;800&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.vflex {
+  display: flex;
+}
+
+.valign-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.vspace-between {
+  justify-content: space-between;
+}
+
+.vcenter {
+  justify-content: center;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.vflex-colomn {
+  flex-direction: column;
+}
+
+
+.text-decoration-none {
+  text-decoration: none;
+}
+
+.left-align{
+  text-align: left;
+}
+
+.fw500 {
+  font-weight: 500;
+}
+
+.fw600 {
+  font-weight: 600;
+}
+
+
+.cur-po {
+  cursor: pointer;
+}
+
+.heading {
+  color: #1e2432;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 36px;
+  margin-bottom: 0px;
+}
+
+.title {
+  color: #1e2432;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 0px;
+}
+
+.title2 {
+  color: #1e2432;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 100%;
+  margin-bottom: 0px;
+}
+
+.sub-title {
+  color: #687086;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 150%;
+  margin-bottom: 0px;
+}
+
+
+
+.solid-button {
+  height: 34px;
+  width: 140px;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
+  line-height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #1b48bb;
+  border-radius: 6px;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.loader{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
